@@ -1,0 +1,269 @@
+body{
+  margin: 0;
+}
+
+.container1{
+  background-image: url(image/creationbanner.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  position: relative;
+
+}
+.first{
+  font-family: 'Lato', sans-serif;
+  font-feature-settings: "aalt";
+  margin-top: 60px;
+  cursor: pointer;
+
+}
+.dark{
+  position: absolute;
+  color: rgb(254, 207, 115);
+  margin-left: 250px;
+  
+}
+.dark:hover{
+  color:  white;
+}
+.range{
+  position: absolute;
+  color: aliceblue;
+  margin-left: 450px;
+}
+.range:hover{
+  color: rgb(254, 207, 115) ;
+
+}
+.DKFS{
+  position: absolute;
+  color: rgb(254, 207, 115);
+  margin-left: 580px;
+
+}
+.DKFS:hover{
+  color:  white;
+}
+.Media{
+  position: absolute;
+  color: aliceblue;
+  margin-left: 750px;
+}
+.Media:hover{
+color:rgb(254, 207, 115) ;
+}
+.Certification{
+  position: absolute;
+  color: rgb(254, 207, 115);
+  margin-left: 850px;
+
+}
+.Certification:hover{
+  color: white;
+}
+.Shop{
+  position: absolute;
+  color: aliceblue;
+  margin-left: 980px;
+
+}
+.Shop:hover{
+  color:  rgb(254, 207, 115);
+}
+.facebook{
+  position:absolute;
+  margin-left: 1150px;
+  width: 20px;
+  height: 20px;
+  transition: 0.7s;
+}
+.facebook:hover{
+
+color: aqua;
+}
+.twitter{
+  
+    position:absolute;
+    margin-left: 1200px;
+    width: 20px;
+    height: 20px;
+  }
+  .twitter:hover{
+    color:  rgb(254, 207, 115)
+  }
+  .insta{
+    
+      position:absolute;
+      margin-left: 1250px;
+      width: 20px;
+      height: 20px;
+    }
+    .insta:hover{
+      color:  rgb(254, 207, 115)
+    }
+    .youtube{
+      position:absolute;
+      margin-left: 1300px;
+      width: 20px;
+      height: 20px;
+    }
+    .youtube:hover{
+      color:  rgb(254, 207, 115)
+    }
+   .itc{
+    position:absolute;
+      margin-left: 1290px;
+      margin-top: 18px;
+      width: 40px;
+      height: 40px;;
+
+   }
+   .icon{
+    position:absolute;
+      margin-left: 550px;
+      margin-top: 100px;
+      width: 300px;
+      height: 300px;
+
+   }
+   .para{
+    margin-left: 450px;
+    margin-top: 500px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+   }
+   .container2{
+    
+    background-image: url('image/srs.jpg');
+    width: 100%;
+    height: 200vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .res{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 80px;
+    width: 250px;
+    height: 70px;
+
+  }
+  
+  .images img{
+    height: 350px;
+    width: 350px;
+  }
+
+.shake{
+  width: 100%;
+  height: 300px;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+
+}
+.images{
+  color: white;
+  font-size: 20px;
+}
+.images i{
+  font-size: 29px;
+  margin-right: 10px;
+}
+.images-disc{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content: left;
+}
+.button2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 0;
+  margin-top: 150px;
+  height: 50px;
+  width: 100%;
+}
+.button1{
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+.button1:hover{
+  background-color: white;
+  color: black;
+}
+.container3{
+    
+  background-image: url(image/last\ pic.png);
+  width: 100%;
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.last{
+  position: absolute;
+    width: 790px;
+    height: 440px;
+    margin-left: 200px;
+    margin-top: 350px;
+}
+.RANGE{
+  position: absolute;
+    margin-left: 950px;
+    margin-top: 120px;
+    width:550px;
+    height: 70px;
+    text-align: center;
+
+}
+
+.RANGE{
+  color: white;
+  font-size: 10px;
+}
+.names{
+  font-size: 25px;
+margin-left: 30px;
+margin-top: 20  px;
+
+}
+.button4{
+  height: 30px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+.button4:hover{
+  background-color: white;
+  color: black;
+}
+
+footer{
+  position: absolute;
+    bottom: -50px;
+    background-color: black;
+    width: 100%;
+    word-spacing: 5px;
+}
+
+.footer ul li{
+  display: inline;
+  color: white;
+}
